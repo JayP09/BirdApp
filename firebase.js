@@ -8,13 +8,12 @@ import { getStorage } from "firebase/storage";
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyAZ3TbnTpBdb76SMR1FYS-mmiaJQOm9oR0",
-    authDomain: "bird-app-8603b.firebaseapp.com",
-    projectId: "bird-app-8603b",
-    storageBucket: "bird-app-8603b.appspot.com",
-    messagingSenderId: "840423479197",
-    appId: "1:840423479197:web:5e316f7c2267ede5d2c174",
-    measurementId: "G-61EZKFVSLR"
+    apiKey: "AIzaSyCOTEV7qolxO9DPGowxiQDXWRVm2Tha7uk",
+    authDomain: "twitter-clone-ec5c1.firebaseapp.com",
+    projectId: "twitter-clone-ec5c1",
+    storageBucket: "twitter-clone-ec5c1.appspot.com",
+    messagingSenderId: "16185033427",
+    appId: "1:16185033427:web:11888adc8525ca04cb4a26"
 };
 
 // Initialize Firebase
