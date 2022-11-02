@@ -1,5 +1,5 @@
 import React from "react";
-import TwitterLogo from "../public/twitter.jpg";
+import TwitterLogo from "../public/twitter.png";
 import SidebarLink from "./SidebarLink";
 import { HomeIcon } from "@heroicons/react/24/solid";
 import {

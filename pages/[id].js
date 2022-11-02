@@ -76,7 +76,7 @@ const PostPage = ({trendingResults, followResults, providers}) => {
                     </div>
                 )}
             </div>
-            <Widgets trendingResults={trendingResults} followResults={followResults}/>
+            {/* <Widgets trendingResults={trendingResults} followResults={followResults}/> */}
             {isOpen && <Modal />}
         </main>
     </div>
@@ -86,20 +86,20 @@ const PostPage = ({trendingResults, followResults, providers}) => {
 export default PostPage;
 
 export async function getServerSideProps(context) {
-  const trendingResults = await fetch("https://jsonkeeper.com/b/NKEV").then(
-    (res) => res.json()
-  );
-  const followResults = await fetch("https://jsonkeeper.com/b/WWMJ").then(
-    (res) => res.json()
-  );
+  // const trendingResults = await fetch("https://jsonkeeper.com/b/NKEV").then(
+  //   (res) => res.json()
+  // );
+  // const followResults = await fetch("https://jsonkeeper.com/b/WWMJ").then(
+  //   (res) => res.json()
+  // );
   const providers = await getProviders();
   const session = await getSession(context);
 
   // here you must return the session
   return {
     props: {
-      trendingResults,
-      followResults,
+      // trendingResults,
+      // followResults,
       providers,
       session,
     },
