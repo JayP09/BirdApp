@@ -21,5 +21,8 @@ export default NextAuth({
       return session;
     },
   },
+  pages: {
+    signIn: "/login",
+  },
   secret: process.env.JWT_SECERET,  
 })
