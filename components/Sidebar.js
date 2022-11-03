@@ -23,7 +23,7 @@ const Sidebar = () => {
       <div className="flex items-center justify-center w-14 h-14 hoverAnimation p-0 xl:ml-24">
         <Image 
           src={TwitterLogo}
-          alt="twitter logo" width={30} height={30}
+          alt="Bird logo" width={30} height={30}
         />
       </div>
       <div className="mt-2 mb-2.5 xl:ml-24">
